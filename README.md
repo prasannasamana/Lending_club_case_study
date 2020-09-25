@@ -10,7 +10,8 @@ You work for a consumer finance company which specialises in lending various typ
 2.If the applicant is not likely to repay the loan, i.e. he/she is likely to default, then approving the loan may lead to a financial loss for the company
 The loan data contains the information about past loan applicants and whether they ‘defaulted’ or not. The aim is to identify patterns which indicate if a person is likely to default, which may be used for taking actions such as denying the loan, reducing the amount of loan, lending (to risky applicants) at a higher interest rate, etc. In this case study, i am using EDA to understand how consumer attributes and loan attributes influence the tendency of default.
 
-loan_image When a person applies for a loan, there are two types of decisions that could be taken by the company:
+
+ When a person applies for a loan, there are two types of decisions that could be taken by the company:
         1.Loan accepted: If the company approves the loan, there are 3 possible scenarios described below:
                1.Fully paid: Applicant has fully paid the loan (the principal and the interest rate)
                2.Current: Applicant is in the process of paying the instalments, i.e. the tenure of the loan is not yet completed. These candidates are not labelled as 'defaulted'.
